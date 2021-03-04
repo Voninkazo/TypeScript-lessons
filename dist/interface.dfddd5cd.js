@@ -193,7 +193,7 @@ sayName('name&numberMustGoHere', 3);
 var sayPerson = function sayPerson(_a) {
   var name = _a.name,
       age = _a.age;
-  console.log(age);
+  console.log(name);
   return {
     name: name,
     age: age
@@ -201,11 +201,11 @@ var sayPerson = function sayPerson(_a) {
 };
 
 sayPerson({
-  name: 'petah',
+  name: 'Sandy',
   age: 50
 });
 sayPerson({
-  name: 'petah'
+  name: 'Sandy'
 });
 
 var createContent = function createContent(contentType) {};
@@ -215,7 +215,7 @@ console.log(interfacesLessons_1.default.Quiz);
 var createContentWithStringEnums = function createContentWithStringEnums(contentType) {};
 
 console.log(interfacesLessons_1.TypeString.BlogPost);
-},{"./interfacesLessons":"src/interfacesLessons.ts"}],"../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./interfacesLessons":"src/interfacesLessons.ts"}],"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -243,7 +243,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49777" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54149" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -419,5 +419,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","src/interface.ts"], null)
+},{}]},{},["../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","src/interface.ts"], null)
 //# sourceMappingURL=/interface.dfddd5cd.js.map

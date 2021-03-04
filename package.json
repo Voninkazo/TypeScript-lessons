@@ -1,24 +1,24 @@
 {
-  "name": "typescript-lessons",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "tsc": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Tiaraha-funny/TypeScript-lessons.git"
-  },
-  "author": "Petah",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Tiaraha-funny/TypeScript-lessons/issues"
-  },
-  "homepage": "https://github.com/Tiaraha-funny/TypeScript-lessons#readme",
-  "devDependencies": {
-    "parcel-plugin-typescript": "^1.0.0",
-    "typescript": "^4.2.2"
-  }
+    "name": "typescript-lessons",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "tsc": "tsc",
+        "start": "parcel index.html"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Tiaraha-funny/TypeScript-lessons.git"
+    },
+    "author": "Petah",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Tiaraha-funny/TypeScript-lessons/issues"
+    },
+    "homepage": "https://github.com/Tiaraha-funny/TypeScript-lessons#readme",
+    "devDependencies": {
+        "parcel-plugin-typescript": "^1.0.0",
+        "typescript": "^4.2.2"
+    }
 }

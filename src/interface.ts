@@ -16,16 +16,16 @@ sayName('name&numberMustGoHere', 3);
 // }
 
 const sayPerson = ({ name, age }: Person): Person => {
-    console.log(age);
+    console.log(name);
     return { name, age };
 }
 
 sayPerson({
-    name: 'petah',
+    name: 'Sandy',
     age: 50
 });
 sayPerson({
-    name: 'petah'
+    name: 'Sandy'
 });//without one of the objec
 
 //ENUMS
